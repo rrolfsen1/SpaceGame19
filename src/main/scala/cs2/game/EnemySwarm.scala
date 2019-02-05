@@ -24,6 +24,6 @@ class EnemySwarm(private val nRows:Int, private val nCols:Int) extends ShootsBul
    *  
    *  @return Bullet - the newly created Bullet object fired from the swarm
    */
-  def shoot():Bullet = { }
+  def shoot():Bullet = { ??? }
   
 }
