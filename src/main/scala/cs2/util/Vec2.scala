@@ -1,7 +1,8 @@
 package cs2.util
 
 class Vec2 (var x:Double, var y:Double) {
-	//Default constructor creates a Vec2 of zeroes
+  /*
+  //Default constructor creates a Vec2 of zeroes
   def this() = this(0,0)
   
   //Copy constructor create a "deep" copy of the input object
@@ -41,4 +42,5 @@ class Vec2 (var x:Double, var y:Double) {
 	
 	def angleBetween(other:Vec2):Double = { math.acos(dot(other) / (magnitude * other.magnitude)) }
 	def <>(other:Vec2):Double = this.angleBetween(other)
+  */
 }
